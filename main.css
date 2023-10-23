@@ -5,8 +5,8 @@
     font-size: large;
     margin: 10px;
     padding: 15px;
-    max-width: 250px;
-    min-height: 200px;
+    max-width: 400px;
+    min-height: 300px;
 }
 main{
     margin-left: 15pt;
@@ -24,3 +24,43 @@ main{
     justify-content: left;
     flex-wrap: wrap;
    }
+.photo{
+    background: url(https://avatars.dzeninfra.ru/get-zen_doc/3990034/pub_626ed0e38e79676203b35c75_626ed53b5c5eb740fb202f82/scale_1200);
+    width: 100px;
+    height: 75px;
+    background-size: cover;
+    border-radius: 50%;
+}
+@media screen and (max-width:750px){
+    .photo{
+        display: none;
+    }
+}
+@media print {
+    
+}
+@media screen and (min-width: 750px) {
+    .photo{
+        border-radius: 30%;
+    }
+}
+.photo1{
+    background: url(https://mykaleidoscope.ru/uploads/posts/2021-11/1637198212_5-mykaleidoscope-ru-p-devushka-s-lukom-devushka-krasivo-foto-5.jpg);
+    width: 100px;
+    height: 75px;
+    background-size: cover;
+    border-radius: 50%;
+}
+@media screen and (max-width:750px){
+    .photo1{
+        display: none;
+    }
+}
+@media print {
+    
+}
+@media screen and (min-width: 750px) {
+    .photo1{
+        border-radius: 30%;
+    }
+}
